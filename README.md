@@ -2,4 +2,6 @@
 
 Utility functions and helpers for repository maintenance.
 
+### [2025-08-18 | How to create a list of files or folders with their realpath](https://github.com/samkhan1/z-utils/blob/main/to_glob_files_or_folders.md)
+
 ### [2025-08-18 | Selectively exclude files or folders from being Synced by Dropbox](https://github.com/samkhan1/z-utils/blob/main/how_to_use-dropbox_ignore_ps1.md)
