@@ -1,6 +1,6 @@
 ## How to create a list of files or folders with their realpath 
 
-To glob the `realpath` of files or folder in Linux, use the `find` command. 
+To glob the `realpath` of files or folders in Linux, use the `find` command. 
 
 The particular file or folder that is to be searched, needs to be included within single or double quotes, in the given command line example. 
 
