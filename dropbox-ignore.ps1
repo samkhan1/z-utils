@@ -8,5 +8,6 @@ ForEach($line in $file){
 }
 
 # Example: 
-# For a single file or folder, run Windows Command Prompt (cmd) as Administrator and then use the following style of command 
+# For a single file or folder, run Windows Command Prompt (cmd) as Administrator and then use the following style of command:
+#
 # 	powershell.exe Set-Content -Path 'C:\Users\my\Documents\newproject\.git' -Stream com.dropbox.ignored -Value 1
