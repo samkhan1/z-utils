@@ -1,6 +1,7 @@
+# Powershell Script for reading a list of paths to folders, from a file,
+# and then setting their attribute to "ignore" for Dropbox Sync 
 
-
-$file = Get-Content -path "dot_git_folders.md" 
+$file = Get-Content -path "list_of_full_path_to_folders.md" 
 
 ForEach($line in $file){
 	echo "$line"
