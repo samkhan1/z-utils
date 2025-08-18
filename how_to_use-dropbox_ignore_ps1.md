@@ -14,7 +14,7 @@ For example, if `.git` folders are to be ignored by Dropbox Sync in Windows OS:
 
 	Download the file [dropbox-ignore.ps1](https://github.com/samkhan1/z-utils/blob/main/dropbox-ignore.ps1) to a folder, and then `cd` into that folder. Place the file with the ignore-list in the same folder. Or else, modify the given code in dropbox-ignore.ps1 to include the path to the file containing the ignore-list.     
 
-	`execute` the dropbox-ignore.ps1 file by using Command Prompt (as admin) at its folder's location, by inputting the following command: 
+	`execute` the dropbox-ignore.ps1 file by using Command Prompt (cmd) as administrator at its folder's location, by inputting the following command: 
 	
 		powershell.exe -ExecutionPolicy Bypass -File "dropbox-ignore.ps1"
 
