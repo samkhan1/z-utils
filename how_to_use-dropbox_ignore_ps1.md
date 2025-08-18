@@ -4,11 +4,11 @@ For example, if `.git` folders are to be ignored by Dropbox Sync in Windows OS:
 
 - Step 1: 
 
-	Create a list of the `realpaths` to files and folders that need to be excluded from syncing via Dropbox, by using Python's inbuilt `glob` function, or by using the `find` command in a terminal of a Linux subsystem, and then save it to a file, such as "dot_git_folder.md"
+	Create a list of the `realpaths` to files and folders that need to be excluded from syncing via Dropbox, by using Python's inbuilt `glob` function, or by using the `find` command in a terminal of a Linux subsystem, and then save it to a file, such as "dot_git_folders.md"
 	
 	In the text string of the file paths, if required, change "/mnt/c" to "C:" and "/" to "\\" to make the string Windows compatible. 
 	
-	See (this article)[https://github.com/samkhan1/z-utils/blob/main/to_glob_files_or_folders.md] on how to use `find` in a Linux environment to create the required list of paths to folders. 
+	See [this article](https://github.com/samkhan1/z-utils/blob/main/to_glob_files_or_folders.md) on how to use `find` in a Linux environment to create the required list of paths to folders. 
 	
 - Step 2: 
 
